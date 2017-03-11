@@ -1,6 +1,6 @@
 <?php 
 session_start();
-	include_once "includes/header.php";
+	include_once "/var/www/html/glupaste/includes/header.php";
 ?>
 
 <html>

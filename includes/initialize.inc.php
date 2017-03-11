@@ -21,7 +21,7 @@ else
 
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
-defined('SITE_ROOT') ? null : define('SITE_ROOT', 'C:'.DS.'server'.DS.'wamp'.DS.'www'.DS.'glug_nith');
+defined('SITE_ROOT') ? null : define('SITE_ROOT', DS.'var'.DS.'www'.DS.'html'.DS.'glupaste');
 	
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
 

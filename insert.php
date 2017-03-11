@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include "includes/libpaste.php";
-$connect=mysql_connect("localhost","root","fooxkcdpgh") ;
+$connect=mysql_connect("localhost","root","fooxkcdpgh2.7") ;
 if($connect)
 {
 /*
@@ -45,7 +45,7 @@ if(!(in_array($captcha,$_SESSION['captcha'])))
  $fh = fopen("data/$id", 'w+') or die('Cannot open file:  '.$id);
 	 fwrite($fh,$data);
 	 fclose($fh);
-	 header("Location: $id");
+	 header("Location: /paste/$id");
 	}
 }
 

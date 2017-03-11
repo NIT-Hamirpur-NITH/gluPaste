@@ -1,9 +1,10 @@
 <?php
 	include "includes/libpaste.php";
 	$arg=get_id($_SERVER["REQUEST_URI"]);
+	echo $arg;
 	if($arg!=""){
 
-		$connect=mysql_connect("localhost","root","fooxkcdpgh") ;
+		$connect=mysql_connect("localhost","root","fooxkcdpgh2.7") ;
 		if($connect)
 		{
 			mysql_select_db("glupaste");
